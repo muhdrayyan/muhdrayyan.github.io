@@ -1,0 +1,92 @@
+body 
+
+
+/* Center everything on the viewport page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the profile container block */
+.profile-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+}
+
+/* Size the image and make it a circle */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Gives the circular cut */
+    object-fit: cover;   /* Prevents the photo from stretching */
+    border: 4px solid #007bff;
+    margin-bottom: 15px;
+}
+
+/* Style your name */
+.profile-name {
+    font-size: 24px;
+    color: #333333;
+    margin: 10px 0 5px 0;
+}
+
+/* Style your professional subtitle */
+.profile-title {
+    font-size: 16px;
+    color: #666666;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+h1, h2, h3 {
+    color: #1a1a1a;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-top: 35px;
+}
+
+.tag {
+    background: #e2e8f0;
+    color: #2d3748;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75em;
+    vertical-align: middle;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
